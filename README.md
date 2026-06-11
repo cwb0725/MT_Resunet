@@ -5,6 +5,10 @@ cos7 线粒体超分辨图像 Resunet 模型
 
 train_cv_cbamselect.py --cbam_pos  (每张图减自身均值)
 
+
+data_load
+train
+
 ###### 推理脚本
 python predict_tif_and_timeseries_cbam_perimgmean.py \
   --test_dir /home/CWB/test_tif \
